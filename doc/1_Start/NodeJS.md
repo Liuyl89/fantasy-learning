@@ -18,8 +18,8 @@
 ### 这里是结尾
 ***
 
-#### 联系作者
 ***
+#### 联系作者
 - [简书主页](https://www.jianshu.com/u/a33591b39f71) 请优先关注我的简书账号，并在简书对应文章下留言，有APP通知推送所以能及时看到，简书也是我的文章首发平台
 - [Github主页](https://github.com/Liuyl89/) 教程和相关代码在我的Github里都能够找到
 - [ArcGIS知乎主页](http://zhihu.esrichina.com.cn/people/liuyl) 文章会被同步到ArcGIS知乎中，ArcGIS知乎是面向广大GISer的知识分享和问答平台，推荐大家经常去看看
