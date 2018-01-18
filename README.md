@@ -1,9 +1,3 @@
-<div align="center">
-  <h1 align="center">Fantasy Learning</h1>
-  <p align="center">WebGIS开发教程</p>
-  <p align="center">Auth by Liuyl from GisUni</p>
-</div>
-
 ### Fantasy Learning ——WebGIS开发教程
 ***Auth by Liuyl from GisUni***
 
