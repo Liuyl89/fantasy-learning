@@ -48,7 +48,7 @@ node -v
 
 nvm的安装包请自行下载，安装过程略...
 
-    以下过程以nvm-windows为例
+***以下过程以nvm-windows为例***
 
 安装后可以在命令行窗口执行如下命令设置NodeJS和NPM的下载镜像，不然下载速度会比较慢
 ```
@@ -56,8 +56,8 @@ nvm node_mirror https://npm.taobao.org/mirrors/node/
 nvm npm_mirror https://npm.taobao.org/mirrors/npm/
 ```
 
-**注意！如果之前windows系统中在默认路径安装过NodeJs，即 `C:\Program Files\nodejs` 目录，在继续下一步前，要将nodejs目录整体删除，否则安装NodeJS后，会无法执行node命令。
-同时，npm的安装目录也需要被删除 `C:\Users<user>\AppData\Roaming\npm`，否则npm命令将不能正确地安装的第三方包 **
+***注意！如果之前windows系统中在默认路径安装过NodeJs，即 `C:\Program Files\nodejs` 目录，在继续下一步前，要将nodejs目录整体删除，否则安装NodeJS后，会无法执行node命令。
+同时，npm的安装目录也需要被删除 `C:\Users<user>\AppData\Roaming\npm`，否则npm命令可能不能正确地安装的第三方包***
 
 在命令行窗口执行如下命令
 ```
@@ -79,7 +79,7 @@ nvm use 8.9.4
 
 然后可以用 `node -v` 命令查看一下node版本
 
-**注意！npm 安装的包在不同版本中是不共享的，所以全局安装时，如下一节提到的cnpm，需要在不同版本下分别安装**
+***注意！npm 安装的包在不同版本中是不共享的，所以全局安装时，如下一节提到的cnpm，需要在不同版本下分别安装***
 
 ### 淘宝源设置
 
