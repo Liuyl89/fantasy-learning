@@ -4,7 +4,12 @@
   <p align="center">Auth by Liuyl from GisUni</p>
 </div>
 
-<h2 align="center">Notice</h2>
+### Fantasy Learning ——WebGIS开发教程
+***Auth by Liuyl from GisUni***
+
+### 前言
+
+---
 
 这个教程的目标是帮助大家在WebGIS开发的过程中，能够更顺利地使用当前JS生态中那些热门的技术，提高开发效率，做出更好的WebGIS应用
 
@@ -16,7 +21,9 @@
 
 目前这个教程的编制工作刚刚起步，内容将会一点点丰富起来。如果各位客官有好的想法和建议的话，欢迎通过后面列出的联系方式反馈给我
 
-<h2 align="center">Menu</h2>
+### 目录
+
+---
 
 这个目录还没有做细致的规划，目前只是个大概，后续会视情况进行调整
 
@@ -33,7 +40,10 @@
 5. 常用WebGIS功能实现
 
 
-<h2 align="center">Contact</h2>
+
+#### 联系作者
+
+---
 
 - [简书主页](https://www.jianshu.com/u/a33591b39f71) 请优先关注我的简书账号，并在简书对应文章下留言，有APP通知推送所以能及时看到，简书也是我的文章首发平台
 - [Github主页](https://github.com/Liuyl89/) 教程和相关代码在我的Github里都能够找到
