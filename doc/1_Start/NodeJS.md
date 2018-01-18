@@ -1,6 +1,10 @@
+<div align="center">
+  <h3 align="center">前端开发教程</h3>
+</div>
+
 作者：liuyl
 
-关于作者：GIS从业者，主要在ArcGIS平台下做WebGIS开发，最后面有作者的联系方式
+关于作者：GIS从业者，主要在ArcGIS平台下做WebGIS开发，最后有作者的联系方式
 
 版权所有：转载请保留作者名和原始链接
 ***
