@@ -7,7 +7,7 @@
 
 这个教程的目标是帮助大家在WebGIS开发的过程中，能够更顺利地使用当前JS生态中那些热门的技术，提高开发效率，做出更好的WebGIS应用
 
-目前计划分多篇介绍在如何使用Webpack、Gulp等工具辅助我们开发，如何使用React和Redux开发一个WebGIS站点，如何让这些工具及框架和Arcgis API for JavaScript很好地结合在一起。
+目前计划分多篇介绍如何使用Webpack、Gulp等工具辅助我们开发，如何使用React和Redux开发一个WebGIS站点，如何让这些工具及框架和Arcgis API for JavaScript很好地结合在一起
 
 教程中还会介绍那些常用的WebGIS功能在这样一套技术架构中该如何实现
 
