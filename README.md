@@ -10,7 +10,7 @@
 <h2 align="center">Menu</h2>
 
 1. 起步
-    - [NodeJS 环境搭建](doc/1_Start/NodeJS.md)
+    - [NodeJS 环境搭建](doc/1_Start/1_NodeJS.md)
 2. Webpack
     - node
 
