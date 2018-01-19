@@ -1,3 +1,7 @@
+<div align="center">
+  <h3 align="center">WebGIS开发教程(二) Nginx 部署及配置</h3>
+</div>
+
 作者：liuyl
 
 关于作者：GIS从业者，主要在ArcGIS平台下做WebGIS开发，最后有作者的联系方式
@@ -109,7 +113,7 @@ http {
 [nginx学习（十）——nginx的配置系统6之server_name](http://blog.csdn.net/xxcupid/article/details/52515237)
 [关于Nginx的server_name](http://blog.51cto.com/onlyzq/535279)
 
-#### 虚拟路径
+#### 虚拟目录
 
 一般情况下，我们可以把想要部署的资源复制到 `nginx-1.13.8\html` 文件夹中，例如放一个图片文件，其物理路径为 `nginx-1.13.8\html\assets\img\test.png` ，这时可以通过 `http://localhost/assets/img/test.png` 访问这个图片
 
