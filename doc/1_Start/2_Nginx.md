@@ -137,7 +137,7 @@ http {
     }
 ```
 
-第二个 location 后的 `/assets_path/` 就是我们指定的虚拟路径，如果对80端口的访问 url 中包含 `/assets_path/` ，那么 nginx 就会去 `alias` 指定的物理路径中查找资源
+第二个 location 后的 `/assets_path/` 就是我们指定的虚拟目录，如果对80端口的访问 url 中包含 `/assets_path/` ，那么 nginx 就会去 `alias` 指定的物理路径中查找资源
 
 所以此时，图片的访问地址应该是 `http://localhost/assets_path/img/test.png`
 
@@ -148,7 +148,7 @@ location 后面的路径也可以写成正则表达式，而且多个 location �
 
 #### 反向代理
 
-反向代理是 nginx 最实用的功能，我最初选择是用 nginx 就是为了用反向代理解决跨域问题。灵活使用反向代理功能能让一个庞大系统的各个部分更容易集成，各子系统的实现技术选择更灵活，在开发中也能带来很大的遍历
+反向代理是 nginx 最实用的功能，我最初选择使用 nginx 就是为了用反向代理解决跨域问题。灵活使用反向代理功能能让一个庞大系统的各个部分更容易集成，各子系统的实现技术选择更灵活，在开发中也能带来很大的便利
 
 看一下下面这段配置
 
@@ -166,7 +166,7 @@ location 后面的路径也可以写成正则表达式，而且多个 location �
     }
 ```
 
-这一段增加了一个 `/nginx_proxy/` 虚拟目录，浏览器访问 `http://localhost/nginx_proxy/index.html` 地址时，nginx 将用这一段的配置进行处理。proxy_pass 指定了 `http://nginx.org/` ，意思是所有被匹配到的请求都相当于在请求 `http://nginx.org/` 。这背后实际是 nginx 先去请求了 [http://nginx.org/index.html](http://nginx.org/index.html) ，然后将得到的结果返回给访问 [http://localhost/nginx_proxy/index.html](http://localhost/nginx_proxy/index.html) 的浏览器。这就反向代理
+这一段增加了一个 `/nginx_proxy/` 虚拟目录，浏览器访问 `http://localhost/nginx_proxy/index.html` 地址时，nginx 将用这一段的配置进行处理。proxy_pass 指定了 `http://nginx.org/` ，意思是所有被匹配到的请求都相当于在请求 `http://nginx.org/` 。这背后实际是 nginx 先去请求了 [http://nginx.org/index.html](http://nginx.org/index.html) ，然后将得到的结果返回给访问 [http://localhost/nginx_proxy/index.html](http://localhost/nginx_proxy/index.html) 的浏览器。这就是反向代理。
 
 可以继续尝试一下访问 [http://localhost/nginx_proxy/en/download.html](http://localhost/nginx_proxy/en/download.html) ，实际上我们得到的页面是 [http://nginx.org/en/download.html](http://nginx.org/en/download.html)
 
