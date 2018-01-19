@@ -8,6 +8,8 @@
 
 版权所有：转载请保留作者名和原始链接
 
+[教程示例代码下载](https://github.com/Liuyl89/fantasy-learning/)
+
 ### 一点前言
 ---
 
@@ -17,8 +19,7 @@
 
 教程代码开发系统环境为Windows，Mac和Linux在个别地方有差别，请自行修正
 
-NodeJS已经成为目前JS前端开发的必备环境，即使项目是纯前端项目，
-也可能需要一些在NodeJS中执行的工具(如Babel、Webpack、Gulp等)来帮助编译和打包
+NodeJS已经成为目前JS前端开发的必备环境，即使项目是纯前端项目，也可能需要一些在NodeJS中执行的工具(如Babel、Webpack、Gulp等)来帮助编译和打包
 
 ### 下面是正文
 ---
@@ -107,7 +108,7 @@ npm config set registry https://registry.npm.taobao.org
 npm install cnpm -g
 ```
 
-`install` 是使用npm时最常用的命令，`-g` 参数意味着这个包会安装在全局环境中，安装成功后，我们就可以在命令行窗口中是用cnpm命令了
+`install` 是使用npm时最常用的命令，`-g` 参数意味着这个包会安装在全局环境中，安装成功后，我们就可以在命令行窗口中使用cnpm命令了
 
 cnpm完全继承了npm的命令，所有npm命令均可以使用cnpm执行
 
