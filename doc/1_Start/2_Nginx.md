@@ -8,9 +8,9 @@
 
 版权所有：转载请保留作者名和原始链接
 
-[教程示例代码下载](https://github.com/Liuyl89/fantasy-learning/)
+这是一个系列教程，内容有一定连续性，可移步 [目录篇](../../README.md) 查看所有教程
 
----
+[教程示例代码下载](https://github.com/Liuyl89/fantasy-learning/)
 
 ### 一点前言
 
@@ -250,13 +250,11 @@ worker_processes  2;
 
 其实有时候并不是自己不会做，只是想不到而已~~
 
-下一篇我们将使用 [HTML5 ★ BOILERPLATE](http://www.bootcss.com/p/html5boilerplate/) 前端模板做出第一个 Hello world 网站，并部署在 nginx 中，正式开启前端开发旅程
-
-##### 本教程是一个系列教程，可以到目录章查看所有教程
+下一篇我们来试着把 ArcGIS API for JavaScript 部署在 nginx 中
 
 - [目录](../../README.md)
 - [上一篇 WebGIS开发教程(一) NodeJS安装](./1_NodeJS.md)
-- [下一篇 敬请期待]()
+- [下一篇 WebGIS开发教程(三) 本地部署 ArcGIS API for JavaScript](./3_ArcgisJSAPI.md)
 
 #### 联系作者
 

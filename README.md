@@ -27,6 +27,8 @@
 1. 起步
     - [NodeJS 环境搭建](doc/1_Start/1_NodeJS.md)
     - [Nginx 部署及配置](doc/1_Start/2_Nginx.md)
+    - [本地部署 ArcGIS API for JavaScript](doc/1_Start/3_ArcgisJSAPI.md)
+    - [一个 Hello World 地图页](doc/1_Start/4_HelloWorld.md)
 2. 使用Webpack、Gulp和其他开发工具
 3. 集成那些要用到的库
     - Arcgis API for JavaScript
