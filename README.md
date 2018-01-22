@@ -17,6 +17,9 @@
 
 [教程示例代码下载](https://github.com/Liuyl89/fantasy-learning/)
 
+点击Download ZIP 下载示例代码
+
+![点击Download ZIP 下载示例代码](http://upload-images.jianshu.io/upload_images/7292919-eeac8bc81c5536d4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 目录
 
