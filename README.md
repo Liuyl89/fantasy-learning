@@ -15,11 +15,7 @@
 
 目前这个教程的编制工作刚刚起步，内容将会一点点丰富起来。如果各位客官有好的想法和建议的话，欢迎通过后面列出的联系方式反馈给我
 
-[教程示例代码下载](https://github.com/Liuyl89/fantasy-learning/)
-
-点击Download ZIP 下载示例代码
-
-![点击Download ZIP 下载示例代码](http://upload-images.jianshu.io/upload_images/7292919-eeac8bc81c5536d4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+[点击下载示例代码](https://github.com/Liuyl89/fantasy-learning/archive/master.zip)
 
 ### 目录
 
