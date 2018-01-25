@@ -21,22 +21,58 @@
 
 ---
 
-这个目录还没有做细致的规划，目前只是个大概，后续会视情况进行调整
+这个目录是个大体思路，后续会视情况进行调整
 
 1. 起步
     - [NodeJS 环境搭建](doc/1_Start/1_NodeJS.md)
     - [Nginx 部署及配置](doc/1_Start/2_Nginx.md)
     - [本地部署 ArcGIS API for JavaScript](doc/1_Start/3_ArcgisJSAPI.md)
     - [一个 Hello World 地图页](doc/1_Start/4_HelloWorld.md)
-2. 使用Webpack、Gulp和其他开发工具
-3. 集成那些要用到的库
-    - Arcgis API for JavaScript
-    - 常用第三方库
-    - React和Redux
-    - 把第三方库打包成DLL
-4. 使用React和Redux
-5. 常用WebGIS功能实现
+2. 使用 Webpack 和 Gulp
+    - [初识 Webpack](doc/2_Webpack/1_Start.md)
+    - 再识 Webpack
+    - 让 Gulp 接管 Webpack
+    - 用 Webpack 引入 jQuery 和 Bootstrap
+    - 用 Webpack 引入 ArcGIS API for JavaScript
+    - 用 React 再做一次 Hello World 地图页
+3. 项目实践那些事
+    - 用 Webpack 把第三方库打包成 DLL
+    - 将通用组件拆分到可独立维护的 JS 文件中
+    - 用工厂模式让应用在 3.x 和 4.x 中随性切换
+    - 不如试一下 Leaflet 和 MapBox
+    - 使用 Promise 和 Async/Await
+    - 让 Redux 处理复杂交互
+    - 常用第三方库和插件
+    - 使用 ESlint 控制代码质量
+    - 如何测试
+    - 如何自动构建文档
+4. 使用 React 实现常用 WebGIS 功能
+    - 经典 WebGIS 应用页面布局
+    - 图层管理
+    - 分屏浏览
+    - 二三维切换与联动
+    - 绘制图形和缓冲区
+    - 点击地图查询
+    - 弹一个模态框
+    - 地图上渲染统计图
+5. JavaScript 也能写后台
+    - 用 Express 做后台
+    - 用 Restful 应对复杂业务
+    - ORM 不止能查库，还能查 ArcGIS Server 服务
+    - 来一套完整的用户模块
+    - 拒绝崩溃
+6. 通过 JavaScript 看 ArcGIS 产品
+    - 定制 ArcGIS Portal
+    - Insights for ArcGIS
+    - WebApp Builder
+    - 捷泰 Geocoding
+    - ......
 
+7. JavaScript 还能写原生应用
+    - React Native 版 Hello World
+    - 浏览个地图
+8. 用 JavaScript 实现三维功能
+...
 
 
 #### 联系作者
