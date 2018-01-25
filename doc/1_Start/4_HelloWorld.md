@@ -311,7 +311,7 @@ location ^~/lesson/ {
 
 - [目录](../../README.md)
 - [上一篇 WebGIS开发教程(三) 本地部署 ArcGIS API for JavaScript](./3_ArcgisJSAPI.md)
-- [下一篇 WebGIS开发教程(五) 敬请期待](../../README.md)
+- [下一篇 WebGIS开发教程(五) WebGIS开发教程(五) 初识 Webpack](../2_Webpack/1_Start.md)
 
 #### 联系作者
 

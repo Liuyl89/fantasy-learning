@@ -169,6 +169,7 @@ server 段配置为如下形式
 因为官方提供的 CDN 在国内访问极其不稳定，国内 CDN 版本又过于滞后，因此在日常工作中，基本都是使用自己本地部署的 API ，希望这篇教程能够帮助大家解决部署过程中遇到的问题和困惑
 
 下一篇我们将使用 [HTML5 ★ BOILERPLATE](http://www.bootcss.com/p/html5boilerplate/) 前端模板、 Bootstrap 和 ArcGIS API for JavaScript 做出一个 Hello World 页面，并部署在 nginx 中，正式开启WebGIS开发旅程
+
 ##### 本教程是一个系列教程，可以到目录章查看所有教程
 
 - [目录](../../README.md)
