@@ -30,7 +30,7 @@
     - [一个 Hello World 地图页](doc/1_Start/4_HelloWorld.md)
 2. 使用 Webpack 和 Gulp
     - [初识 Webpack](doc/2_Webpack/1_Start.md)
-    - 再识 Webpack
+    - [再识 Webpack](doc/2_Webpack/2_Second.md)
     - 让 Gulp 接管 Webpack
     - 用 Webpack 引入 jQuery 和 Bootstrap
     - 用 Webpack 引入 ArcGIS API for JavaScript

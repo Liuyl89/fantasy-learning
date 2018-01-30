@@ -419,7 +419,7 @@ $('#my-btn').click(() => {
 
 - [目录](../../README.md)
 - [上一篇 WebGIS开发教程(四) 一个 Hello World 地图页](../1_Start/4_HelloWorld.md)
-- [下一篇 敬请期待](../../README.md)
+- [下一篇 WebGIS开发教程(六) 再识 Webpack](./2_Second.md)
 
 #### 联系作者
 

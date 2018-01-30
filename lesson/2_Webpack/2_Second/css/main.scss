@@ -1,0 +1,33 @@
+.app {
+  margin-top: 50px;
+}
+
+@mixin vertical-align-inline-block {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.author {
+  margin: 30px 0 40px;
+  .logo {
+    width: 48px;
+    height: 48px;
+    @include vertical-align-inline-block;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+  }
+  .info {
+    @include vertical-align-inline-block;
+    margin-left: 8px;
+    .name {
+      margin-right: 3px;
+      font-size: 16px;
+      vertical-align: middle;
+    }
+    .meta {
+      margin-top: 5px;
+      font-size: 12px;
+      color: #969696;
+    }
+  }
+}
