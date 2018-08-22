@@ -1,0 +1,4 @@
+public/arcgis_js_api
+node_modules/
+nginx-1.13.8/logs/
+.vscode/

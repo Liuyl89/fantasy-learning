@@ -1,0 +1,31 @@
+{
+  "name": "fantasy-learning",
+  "version": "1.0.0",
+  "description": "***Auth by Liuyl from GisUni***",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liuyl89/fantasy-learning.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Liuyl89/fantasy-learning/issues"
+  },
+  "homepage": "https://github.com/Liuyl89/fantasy-learning#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "file-loader": "^1.1.6",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0"
+  }
+}
